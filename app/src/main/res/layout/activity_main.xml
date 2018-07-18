@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp"
+    >
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/imageButton3"
+        android:layout_toStartOf="@+id/imageButton3"
+        app:srcCompat="@drawable/cctvicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_toEndOf="@+id/imageButton4"
+        android:layout_toRightOf="@+id/imageButton4"
+        app:srcCompat="@drawable/timelineicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6"
+        android:layout_below="@+id/imageButton2"
+        app:srcCompat="@drawable/electricityicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/imageButton3"
+        android:layout_toEndOf="@+id/imageButton6"
+        android:layout_toRightOf="@+id/imageButton6"
+        app:srcCompat="@drawable/libraryicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_below="@+id/imageButton4"
+        android:layout_toLeftOf="@+id/imageButton7"
+        android:layout_toStartOf="@+id/imageButton7"
+        app:srcCompat="@drawable/aboutus" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        app:srcCompat="@drawable/exiticon" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:text="Signum Smart Sekre"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="Powered by Bengkel Radio" />
+
+</RelativeLayout>
